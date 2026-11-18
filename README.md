@@ -46,4 +46,4 @@ yarn docs:dev
 
 ## License
 
-[MIT](https://github.com/gdut-yy/Domain-Driven-Design-zh/blob/master/LICENSE)
+[MIT](./LICENSE)
