@@ -2,7 +2,7 @@
 
 《领域驱动设计:软件核心复杂性应对之道》中文翻译
 
-在线阅读：[http://gdut_yy.gitee.io/doc-ddd/](http://gdut_yy.gitee.io/doc-ddd/)
+在线阅读：[https://kyrie2to11.github.io/book-domain-driven-design-zh/](https://kyrie2to11.github.io/book-domain-driven-design-zh/)
 
 <img src="./docs/cover.jpg" width=40%>
 
@@ -35,22 +35,14 @@
 
 ## 本地开发 & 阅读
 
-本项目基于 vuepress 进行开发，以提供比 github mardown 更佳的阅读体验
-
-依赖于 `node.js`、`yarn`、`vuepress` 等环境
+使用 Node.js 24 和 Yarn 1，在仓库目录运行：
 
 ```sh
-# vuepress
-yarn global add vuepress
-
-# 本地开发
-git clone https://github.com/gdut-yy/Domain-Driven-Design-zh.git
-cd Domain-Driven-Design-zh/
+yarn install --frozen-lockfile
 yarn docs:dev
-
-# 本地阅读
-http://localhost:8080/doc-ddd/
 ```
+
+本地访问 http://localhost:8080/ 。推送到 `master` 后，GitHub Actions 会构建并发布在线阅读站。
 
 ## License
 
